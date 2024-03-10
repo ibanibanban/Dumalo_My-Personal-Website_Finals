@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Fredoka', sans-serif;
+}
+
+:root {
+    --main-color: #d0d0df;
+    --text-color: #fff;
+    --h1-font: 5.6rem;
+    --h2-font: 3.7rem;
+    --p-font: 1rem;
+}
+
+body {
+    padding: 50px;
+    background-image: url('loginbg4.jpg'); /* Add the path to your image */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+}
+
+.container {
+    background-color: var(--main-color);
+    padding: 20px;
+    box-shadow: 0 0 10px #606161;
+    text-align: center;
+    margin-top: 220px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #bfcade;
+    border: 2px solid var(--main-color);
+    margin-bottom: 10px;
+}
+
+.links, .white-link {
+    color: white;
+}
+
+.white-link {
+    text-decoration: underline;
+}
+
+.white-link:hover {
+    color: #a6bbcc;
+}
+
+.btn:hover {
+    background-color: #36393f;
+    border-color: var(--main-color);
+}
+
+@media (max-height: 600px) {
+    .container {
+        margin-top: 50px;
+    }
+}
+
+@media (max-height: 400px) {
+    .container {
+        margin-top: 20px;
+    }
+}
+
+
